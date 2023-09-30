@@ -1,0 +1,218 @@
+/* Reset default margin, padding and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set font family and size for the body */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  /* Style the header with a light background, padding, and a navigation menu */
+  header {
+    background-color:  #00bdfe;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #1c05b3;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color:  #1c05b3;
+    color: #fff;
+  }
+  #top {
+    background-image: url("Banner.png");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  /* Style the banner section with a background image and centered text */
+  #banner {
+    background-image: url("bgI.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+    
+  #banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    opacity: 0.8;
+  }
+  
+  #Proficiency{
+    background-color: #fff;
+    padding: 50px;
+  }
+  #Proficiency h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the news section with a white background and a list of news items */
+  #news {
+    background-color: #f5f5f5;
+    padding: 50px;
+  }
+  
+  #news h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #news ul {
+    list-style: none;
+  }
+  
+  #news ul li {
+    margin-bottom: 10px;
+  }
+  
+  #news ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #news ul li a:hover {
+    color: #3722d6;
+  }
+  
+  /* Style the events section with a gray background and a list of upcoming events */
+  #events {
+    background-color: #fff;
+    padding: 50px;
+  }
+  
+  #events h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #events ul {
+    list-style: none;
+  }
+  
+  #events ul li {
+    margin-bottom: 10px;
+  }
+  
+  #events ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #events ul li a:hover {
+    color: #3722d6;
+  }
+  
+  /* Style the about section with a white background and a description of the university */
+  #about {
+    background-color: #f5f5f5;
+    padding: 50px;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  /* Style the footer with a light background and a copyright notice */
+footer {
+    background-color: #b7b2b2;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    footer p {
+    font-size: 14px;
+    color: #333;
+    }
+    
+    /* Media queries for responsive design */
+    @media (max-width: 768px) {
+    
+    header {
+    padding: 5px;
+    }
+    
+    nav ul {
+    flex-direction: column;
+    }
+    
+    nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+   
+    #banner h1 {
+    font-size: 36px;
+    }
+    
+    #banner p {
+    font-size: 18px;
+    }
+    
+    #news h2,
+    #events h2,
+    #about h2 {
+    font-size: 24px;
+    }
+    
+    #news ul li,
+    #events ul li {
+    font-size: 14px;
+    }
+    
+    #about p {
+    font-size: 16px;
+    }
+}
